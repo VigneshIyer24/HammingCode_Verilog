@@ -1,0 +1,23 @@
+|hammingenc
+clk => C[0]~reg0.CLK
+clk => C[1]~reg0.CLK
+clk => C[2]~reg0.CLK
+clk => C[3]~reg0.CLK
+clk => C[4]~reg0.CLK
+clk => C[5]~reg0.CLK
+clk => C[6]~reg0.CLK
+d[0] => C.IN0
+d[0] => C.IN0
+d[0] => C[3]~reg0.DATAIN
+d[1] => C.IN1
+d[1] => C.IN0
+d[1] => C[4]~reg0.DATAIN
+d[2] => C.IN1
+d[2] => C.IN1
+d[2] => C[5]~reg0.DATAIN
+d[3] => C.IN1
+d[3] => C.IN1
+d[3] => C.IN1
+d[3] => C[6]~reg0.DATAIN
+
+

@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Vignesh1\SIXTH SEMESTER\Digital System Design\Project\hammingenc\simulation\modelsim
+vhammingenc
+!s100 I]blNbVf?RbD^AJG`2IT42
+IQ>nVZF[9=Nk_8Dnb1T`441
+VEZ?B[2JM<3^4R:_]>c52L1
+Z1 dE:\Vignesh1\SIXTH SEMESTER\Digital System Design\Project\hammingenc\simulation\modelsim
+w1459328915
+8E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc/hammingenc.v
+FE:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc/hammingenc.v
+L0 1
+OV;L;10.0c;49
+r1
+!s85 0
+31
+!s108 1459333331.795000
+!s107 E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc/hammingenc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc|E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc/hammingenc.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work {+incdir+E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingenc} -O0
