@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 30 14:35:06 2016
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : hammingdec
+Top-level Entity Name : hammingdec
+Family : Cyclone II
+Total logic elements : 17
+    Total combinational functions : 17
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 29
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

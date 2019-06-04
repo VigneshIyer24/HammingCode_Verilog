@@ -1,0 +1,38 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do hammingdec_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Vignesh1/SIXTH\ SEMESTER/Digital\ System\ Design/Project/hammingdec {E:/Vignesh1/SIXTH SEMESTER/Digital System Design/Project/hammingdec/hammingdec.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hammingdec
+# 
+# Top level modules:
+# 	hammingdec
+# 
+#  
+vsim work.hammingdec
+# vsim work.hammingdec 
+# Loading work.hammingdec
+add wave  \
+sim:/hammingdec/s \
+sim:/hammingdec/r \
+sim:/hammingdec/e \
+sim:/hammingdec/d \
+sim:/hammingdec/clk \
+sim:/hammingdec/c \
+sim:/hammingdec/a
+force -freeze sim:/hammingdec/r 1110110 0
+force -freeze sim:/hammingdec/clk 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/hammingdec/r 1011000 0
+force -freeze sim:/hammingdec/clk 1 0, 0 {50 ps} -r 100
+run
+run

@@ -1,0 +1,8 @@
+hammingdec(clk,r,Ht,S);
+input clk;
+output [0:2]S;
+input r[0:6];
+input [0:6]Ht[0:2];
+always@(posedge clk)
+begin
+

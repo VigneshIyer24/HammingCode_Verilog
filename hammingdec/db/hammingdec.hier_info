@@ -1,0 +1,32 @@
+|hammingdec
+clk => e[0]~reg0.CLK
+clk => e[1]~reg0.CLK
+clk => e[2]~reg0.CLK
+clk => e[3]~reg0.CLK
+clk => e[4]~reg0.CLK
+clk => e[5]~reg0.CLK
+clk => e[6]~reg0.CLK
+clk => s[0]~reg0.CLK
+clk => s[1]~reg0.CLK
+clk => s[2]~reg0.CLK
+r[0] => s.IN0
+r[0] => a1.IN1
+r[1] => s.IN0
+r[1] => a2.IN1
+r[2] => s.IN0
+r[2] => a3.IN1
+r[3] => s.IN1
+r[3] => s.IN1
+r[3] => a4.IN1
+r[4] => s.IN1
+r[4] => s.IN1
+r[4] => a5.IN1
+r[5] => s.IN1
+r[5] => s.IN1
+r[5] => a6.IN1
+r[6] => s.IN1
+r[6] => s.IN1
+r[6] => s.IN1
+r[6] => a7.IN1
+
+
