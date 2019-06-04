@@ -1,0 +1,2 @@
+# HammingCode_Verilog
+This project used an cyclone II FPGA kit by Altera based system to implement hamming code, which is used in digital communication of error correction and detection . The HDL Verilog was used to implement this coding logic in the kit. The simulation and RTL logic of this are given in the folder hammingnew. The coding style used is module styled coding where the module is developed differently and used as function in the main code.
